@@ -119,7 +119,7 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }) {
       console.log('🎉 Airdrop event detected:', logs)
       
       logs.forEach((log) => {
-        const { tokenId: eventTokenId, amount, level } = log.args
+        const { tokenId: eventTokenId, amount, level } = (log as any).args
         
         if (eventTokenId.toString() === tokenId) {
           const airdropEvent: AirdropEvent = {
