@@ -162,7 +162,7 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }) {
       balanceError
     })
     
-    if (balance !== undefined) {
+    if (balance !== undefined && balance !== null) {
       const balanceValue = Number(balance) / 1e18
       console.log('🔍 AirdropSystem - Raw balance:', balance)
       console.log('🔍 AirdropSystem - Calculated balance:', balanceValue)
