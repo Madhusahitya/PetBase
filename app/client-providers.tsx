@@ -26,10 +26,6 @@ const config = getDefaultConfig({
     [base.id]: http('https://mainnet.base.org'),
   },
   ssr: false, // Disable SSR to prevent hydration issues
-  enableWalletConnect: false, // Disable WalletConnect for now to avoid project ID issues
-  enableInjected: true,
-  enableEIP6963: true,
-  enableCoinbase: true,
 })
 
 export function ClientProviders({ children }: { children: React.ReactNode }) {
