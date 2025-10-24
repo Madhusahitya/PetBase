@@ -37,9 +37,9 @@ export default function PetTinderCard({ pet, onSwipe, onJoinTribe }: PetTinderCa
     >
       {/* Pet Image */}
       <div className="relative h-2/3 bg-gradient-to-br from-blue-100 to-pink-100 flex items-center justify-center">
-        {pet.image ? (
+        {(pet as any).image ? (
           <img
-            src={pet.image}
+            src={(pet as any).image}
             alt={pet.name}
             className="w-full h-full object-cover"
           />
