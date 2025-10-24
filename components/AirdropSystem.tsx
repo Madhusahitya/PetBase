@@ -249,7 +249,6 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
       </div>
 
 
-      {/* Recent Airdrop */}
       {lastAirdrop && (
         <motion.div
           className="bg-green-50 border border-green-200 rounded-xl p-4 mb-6"
