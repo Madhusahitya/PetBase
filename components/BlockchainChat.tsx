@@ -62,7 +62,7 @@ export default function BlockchainChat({ tokenId, tribeMembers: initialTribeMemb
     onLogs: (logs) => {
       console.log('TribeJoined event detected in chat:', logs)
       const relevantLogs = logs.filter(log => 
-        log.args.tokenId && BigInt(log.args.tokenId).toString() === tokenId
+        (log as any).args.tokenId && BigInt((log as any).args.tokenId).toString() === tokenId
       )
       
       if (relevantLogs.length > 0) {
