@@ -250,7 +250,8 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
 
       {/* Airdrop Tiers */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-        {AIRDROP_TIERS.map((tier, index) => (
+        {AIRDROP_TIERS.map((tier, index) => {
+          return (
           <motion.div
             key={tier.level}
             className={`bg-gradient-to-r ${tier.color} rounded-xl p-4 text-white relative overflow-hidden`}
@@ -284,7 +285,8 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
               }}
             />
           </motion.div>
-        ))}
+          )
+        })}
       </div>
 
       {/* Recent Airdrop */}
