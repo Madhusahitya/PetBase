@@ -248,7 +248,6 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
         </div>
       </div>
 
-      {/* Airdrop Tiers section removed for deployment */}
 
       {/* Recent Airdrop */}
       {lastAirdrop && (
