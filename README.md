@@ -1,4 +1,4 @@
-# PetBase Subgraph
+# PetBase - Virtual Pet Adoption on Base
 
 A subgraph for indexing PetBase NFT contract events on Base network.
 
