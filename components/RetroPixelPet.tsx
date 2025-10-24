@@ -132,7 +132,7 @@ export default function RetroPixelPet({
   return (
     <motion.div
       className={`relative inline-block ${className}`}
-      variants={animationVariants}
+      variants={animationVariants as any}
       animate={getAnimationState()}
     >
       {/* 3D Cartoonish Pet - Like original emoji pets */}
