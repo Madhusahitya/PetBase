@@ -60,7 +60,7 @@ export default function XMTPTribeChat({ tokenId, tribeMembers: initialTribeMembe
       console.log('TribeJoined event detected in chat:', logs)
       // Check if this event is for our pet
       const relevantLogs = logs.filter(log => 
-        log.args.tokenId && BigInt(log.args.tokenId).toString() === tokenId
+        (log as any).args.tokenId && BigInt((log as any).args.tokenId).toString() === tokenId
       )
       
       if (relevantLogs.length > 0) {

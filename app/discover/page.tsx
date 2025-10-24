@@ -71,7 +71,7 @@ function DiscoverPageContent() {
     onLogs: (logs: any[]) => {
       console.log('🎉 TribeJoined event detected:', logs)
       logs.forEach((log) => {
-        const { tokenId, user } = log.args
+        const { tokenId, user } = (log as any).args
         const tokenIdStr = tokenId.toString()
         const userAddress = user as string
         

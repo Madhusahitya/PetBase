@@ -111,7 +111,7 @@ function CarePageContent() {
     eventName: 'LevelUp',
     onLogs: (logs: any[]) => {
       logs.forEach((log) => {
-        const { tokenId, newLevel } = log.args
+        const { tokenId, newLevel } = (log as any).args
         if (tokenId.toString() === petId) {
           console.log(`🎉 Pet ${petId} leveled up to level ${newLevel}!`)
           setShowConfetti(true)
@@ -129,7 +129,7 @@ function CarePageContent() {
     eventName: 'AirdropDistributed',
     onLogs: (logs: any[]) => {
       logs.forEach((log) => {
-        const { tokenId, amount, level } = log.args
+        const { tokenId, amount, level } = (log as any).args
         if (tokenId.toString() === petId) {
           console.log(`🎁 Airdrop distributed for pet ${petId}: ${amount} tokens at level ${level}!`)
           
@@ -153,7 +153,7 @@ function CarePageContent() {
     eventName: 'TribeJoined',
     onLogs: (logs: any[]) => {
       logs.forEach((log) => {
-        const { tokenId, user } = log.args
+        const { tokenId, user } = (log as any).args
         if (tokenId.toString() === petId) {
           console.log(`🎉 User ${user} joined tribe for pet ${petId}!`)
           // Refetch tribe members when someone joins
