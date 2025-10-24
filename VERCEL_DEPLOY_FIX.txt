@@ -1,0 +1,10 @@
+This file forces Vercel to use the latest commit with all TypeScript fixes applied.
+
+All TypeScript errors have been resolved:
+- AirdropSystem component deleted
+- All log.args TypeScript errors fixed
+- PetTinderCard TypeScript error fixed
+- RetroPixelPet TypeScript error fixed
+- BlockchainChat TypeScript error fixed
+
+Commit: 3c3bfc5
