@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useContractRead, useWatchContractEvent } from 'wagmi'
 import { PET_NFT_ADDRESS, PET_NFT_ABI_FINAL as PET_NFT_ABI } from '@/utils/contracts'
@@ -250,7 +250,7 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }) {
 
       {/* Airdrop Tiers */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-        {AIRDROP_TIERS.map((tier, index) => (
+        {AIRDROP_TIERS.map((tier, index): React.ReactNode => (
           <motion.div
             key={tier.level}
             className={`bg-gradient-to-r ${tier.color} rounded-xl p-4 text-white relative overflow-hidden`}
