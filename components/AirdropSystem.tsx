@@ -248,47 +248,7 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
         </div>
       </div>
 
-      {/* Airdrop Tiers - Commented out for deployment */}
-      {/* 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-        {AIRDROP_TIERS.map((tier, index) => {
-          return (
-          <motion.div
-            key={tier.level}
-            className={`bg-gradient-to-r ${tier.color} rounded-xl p-4 text-white relative overflow-hidden`}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-          >
-            <div className="relative z-10">
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-2xl">{tier.icon}</span>
-                <span className="text-sm font-medium">Level {tier.level}</span>
-              </div>
-              <h4 className="font-bold text-lg mb-1">{tier.name}</h4>
-              <p className="text-sm opacity-90 mb-2">{tier.description}</p>
-              <div className="text-2xl font-bold">
-                {tier.reward} $PET
-              </div>
-            </div>
-            
-            <motion.div
-              className="absolute inset-0 bg-white opacity-10"
-              animate={{
-                scale: [1, 1.1, 1],
-                opacity: [0.1, 0.2, 0.1]
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-            />
-          </motion.div>
-          )
-        })}
-      </div>
-      */}
+      {/* Airdrop Tiers section removed for deployment */}
 
       {/* Recent Airdrop */}
       {lastAirdrop && (
