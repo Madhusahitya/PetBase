@@ -248,7 +248,8 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
         </div>
       </div>
 
-      {/* Airdrop Tiers */}
+      {/* Airdrop Tiers - Commented out for deployment */}
+      {/* 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
         {AIRDROP_TIERS.map((tier, index) => {
           return (
@@ -271,7 +272,6 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
               </div>
             </div>
             
-            {/* Animated background */}
             <motion.div
               className="absolute inset-0 bg-white opacity-10"
               animate={{
@@ -288,6 +288,7 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }): React.R
           )
         })}
       </div>
+      */}
 
       {/* Recent Airdrop */}
       {lastAirdrop && (
