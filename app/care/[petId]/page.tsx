@@ -15,7 +15,6 @@ import { PET_TOKEN_ADDRESS, PET_TOKEN_ABI } from '@/utils/contracts'
 import toast from 'react-hot-toast'
 import Confetti from 'react-confetti'
 import BlockchainChat from '@/components/BlockchainChat'
-import AirdropSystem from '@/components/AirdropSystem'
 
 function CarePageContent() {
   const params = useParams()
@@ -507,7 +506,6 @@ function CarePageContent() {
 
               {/* Enhanced Airdrop System */}
               <div className="mt-6">
-                <AirdropSystem tokenId={petId} />
               </div>
             </div>
           </div>
