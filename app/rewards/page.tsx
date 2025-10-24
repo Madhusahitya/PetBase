@@ -5,7 +5,6 @@ import { motion } from 'framer-motion'
 import { useClientAccount } from '@/hooks/useClientAccount'
 import { useContractRead } from 'wagmi'
 import { PET_TOKEN_ADDRESS, PET_TOKEN_ABI } from '@/utils/contracts'
-import AirdropDashboard from '@/components/AirdropDashboard'
 import OpenSeaMarketplace from '@/components/OpenSeaMarketplace'
 import PageTransition from '@/components/PageTransition'
 import RetroNavbar from '@/components/RetroNavbar'
@@ -95,8 +94,6 @@ function RewardsPageContent() {
             </p>
           </div>
 
-          {/* Airdrop Dashboard */}
-          <AirdropDashboard />
 
           {/* OpenSea Marketplace Section */}
           <div className="mt-12">
