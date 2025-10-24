@@ -53,7 +53,7 @@ const AIRDROP_TIERS: AirdropTier[] = [
   }
 ]
 
-export default function AirdropSystem({ tokenId }: { tokenId: string }) {
+export default function AirdropSystem({ tokenId }: { tokenId: string }): React.ReactElement {
   const { address, isConnected } = useClientAccount()
   const [airdropHistory, setAirdropHistory] = useState<AirdropEvent[]>([])
   const [showConfetti, setShowConfetti] = useState(false)
@@ -250,7 +250,7 @@ export default function AirdropSystem({ tokenId }: { tokenId: string }) {
 
       {/* Airdrop Tiers */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-        {AIRDROP_TIERS.map((tier, index): React.ReactNode => (
+        {AIRDROP_TIERS.map((tier, index) => (
           <motion.div
             key={tier.level}
             className={`bg-gradient-to-r ${tier.color} rounded-xl p-4 text-white relative overflow-hidden`}
