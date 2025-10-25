@@ -11,27 +11,27 @@
 
 PetBase is a revolutionary virtual pet game built on Base that combines familiar Tamagotchi-style mechanics with real Web3 ownership. Every pet gets a unique Base username (like "buddy.base.eth") and can be cared for, leveled up, and even sold on OpenSea for real ETH!
 
-### ✨ Key Features
+###  Key Features
 
-- **🐾 Unique Base Usernames**: Every pet gets a permanent digital identity like "fluffy.base.eth"
-- **💝 Pet Care System**: Feed, play, and care for your pets to level them up
-- **👥 Tribe System**: Join communities and build lasting friendships
-- **💰 Real Economic Value**: Earn PET tokens and sell leveled pets on OpenSea
-- **📱 Social Sharing**: Share your pets on X, TikTok, Instagram with unique identities
-- **🎯 Non-Crypto Friendly**: Works like any mobile game but with Web3 benefits
+- **Unique Base Usernames**: Every pet gets a permanent digital identity like "fluffy.base.eth"
+- **Pet Care System**: Feed, play, and care for your pets to level them up
+- **Tribe System**: Join communities and build lasting friendships
+- **Real Economic Value**: Earn PET tokens and sell leveled pets on OpenSea
+- **Social Sharing**: Share your pets on X, TikTok, Instagram with unique identities
+- **Non-Crypto Friendly**: Works like any mobile game but with Web3 benefits
 
-## 🚀 Live Demo
+##  Live Demo
 
-**🌐 [Try PetBase Now](https://your-vercel-url.vercel.app)**
+**🌐 [Try PetBase Now](https://petbase-git-main-madhusahityaworks-gmailcoms-projects.vercel.app?_vercel_share=JRNialcIfrcDnwLCdmeDtP8JTun6dVto)**
 
-## 🎯 The Problem We Solve
+## The Problem We Solve
 
 - **99% of people** find crypto intimidating and complex
 - **Traditional games** lose your progress when you delete the app
 - **No emotional connection** to digital assets
 - **Missing bridge** between Web2 gaming and Web3 ownership
 
-## 💡 Our Solution
+## Our Solution
 
 PetBase makes Web3 accessible through familiar pet care mechanics:
 
@@ -41,7 +41,7 @@ PetBase makes Web3 accessible through familiar pet care mechanics:
 4. **Join tribes** and build communities
 5. **Earn money** by selling leveled pets on OpenSea
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - **Next.js 14** - React framework with App Router
@@ -63,7 +63,7 @@ PetBase makes Web3 accessible through familiar pet care mechanics:
 - **PETToken Contract** - Rewards system for pet care
 - **Base Username Integration** - Unique digital identities
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Frontend (Next.js) → Wagmi → Base Network → Smart Contracts
@@ -71,7 +71,7 @@ Frontend (Next.js) → Wagmi → Base Network → Smart Contracts
 Social Sharing → OpenSea → NFT Marketplace
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -132,7 +132,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 - Sell for real ETH rewards
 - Turn gaming time into income!
 
-## 🔗 Smart Contracts
+## Smart Contracts
 
 ### PetNFT Contract
 - **Address**: `0x5b1FC26484f154b78Cde658a6B6Ee916BaFf0968`
@@ -144,33 +144,33 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 - **Network**: Base Sepolia Testnet
 - **Function**: Rewards system for pet care activities
 
-## 📱 Features
+## Features
 
-### 🐾 Pet Management
+### Pet Management
 - Create unlimited pets
 - Unique Base username for each pet
 - Real-time health and happiness tracking
 - Leveling system with rewards
 
-### 👥 Social Features
+### Social Features
 - Tribe joining and management
 - Pet discovery and swiping
 - Social media sharing integration
 - Community building tools
 
-### 💰 Economic System
+### Economic System
 - PET token rewards for pet care
 - OpenSea integration for trading
 - Real ETH earnings from pet sales
 - Value appreciation through leveling
 
-### 🎨 User Experience
+### User Experience
 - Retro gaming UI design
 - Smooth animations and transitions
 - Mobile-responsive design
 - Intuitive pet care mechanics
 
-## 🌟 Why PetBase?
+## Why PetBase?
 
 ### For Gamers
 - **Real Ownership**: Your pets are truly yours on the blockchain
@@ -190,21 +190,21 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 - **Social Sharing**: Built for viral content creation
 - **Educational**: Learn Web3 concepts gradually
 
-## 🚀 Roadmap
+## Roadmap
 
-### Phase 1: Core Features ✅
+### Phase 1: Core Features 
 - [x] Pet creation and care system
 - [x] Base username integration
 - [x] Social sharing functionality
 - [x] OpenSea marketplace integration
 
-### Phase 2: Community Features 🚧
+### Phase 2: Community Features 
 - [ ] Advanced tribe management
 - [ ] Pet breeding system
 - [ ] Seasonal events and challenges
 - [ ] Mobile app development
 
-### Phase 3: Advanced Features 📋
+### Phase 3: Advanced Features 
 - [ ] Pet customization options
 - [ ] Advanced economic systems
 - [ ] Cross-chain integration
@@ -224,7 +224,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Base Network** - For providing the perfect platform for consumer Web3 apps
 - **OpenZeppelin** - For secure smart contract libraries
@@ -233,11 +233,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Community** - For feedback and support
 
 ## 📞 Contact
-
-- **Website**: [PetBase.app](https://your-vercel-url.vercel.app)
-- **Twitter**: [@PetBaseApp](https://twitter.com/PetBaseApp)
-- **Discord**: [Join our community](https://discord.gg/petbase)
-- **Email**: hello@petbase.app
+- **Twitter**: [@PetBaseApp](https://x.com/0xmadzz)
+- **Discord**: [Join our me](0xmadzz)
+- **Email**: madhusahitya.works@gmail.com
 
 ## 🌟 Support the Project
 
